@@ -11,7 +11,8 @@ body {
     background-image: linear-gradient(to bottom, #3f0be8, #3140f0, #325df4, #4476f4, #5e8cf0, #569ef5, #5aaff8, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 
-header, section {
+header,
+section {
     display: flex;
 }
 
@@ -23,23 +24,12 @@ h3 {
 h1 {
     margin-top: 50px;
     margin-left: 125px;
-    color:black;
+    color: black;
     font-size: 40px;
-   
+
 }
 
-a {
-    margin-top: 60px;
-    margin-left: 150px;
-    color:black;
-    font-size: 20px;
-}
-
-.menu {
-    display: flex;
-}
-
-img {
+.img-me {
     margin-top: 120px;
     width: 350px;
     margin-left: 200px;
@@ -58,8 +48,9 @@ p {
 .row {
     display: flex;
     flex-wrap: wrap;
-   
+
 }
+
 .col {
     flex: 1;
     padding: 10px;
@@ -72,4 +63,53 @@ p {
 h2 {
     margin-left: 150px;
     font-size: 40px;
+}
+
+ul,
+li {
+    list-style: none;
+
+}
+
+.links {
+    margin-top: 70px;
+    margin-left: 240px;
+    font-size: 24px;
+}
+
+li:hover,
+a:hover,
+button:hover {
+    cursor: pointer;
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li:hover>ul {
+    display: inline-block;
+    background-color: white;
+    box-shadow: 10px 10px 20px grey;
+    line-height: 2.5;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    position: absolute;
+    padding: 15px;
+}
+
+
+.image-list {
+    width: 16px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
