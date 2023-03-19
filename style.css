@@ -130,10 +130,10 @@ h6 {
 .linkgit {
     margin-left: 180px;
     font-size: 20px;
-   
+
 }
 
-.nav_tabs{
+.nav_tabs {
     width: 1200px;
     height: 600px;
     margin: 50px auto;
@@ -141,58 +141,61 @@ h6 {
     position: relative;
 }
 
-.nav_tabs ul{
+.nav_tabs ul {
     list-style: none;
 }
 
-.nav_tabs ul li{
+.nav_tabs ul li {
     float: left;
 }
 
-.tab_label{
+.tab_label {
     display: block;
     width: 200px;
     background-color: #363b48;
     padding: 25px;
     font-size: 20px;
-    color:#fff;
+    color: #fff;
     cursor: pointer;
     text-align: center;
 }
 
 
-.nav_tabs .rd_tab { 
-display:none;
-position: absolute;
+.nav_tabs .rd_tab {
+    display: none;
+    position: absolute;
 }
 
-.nav_tabs .rd_tab:checked ~ label { 
-background-color: #e54e43;
-color:#fff;}
-
-.tab-content{
-border-top: solid 5px #e54e43;
-background-color: #fff;
-display: none;
-position: absolute;
-height: 320px;
-width: 600px;
-left: 0;	
+.nav_tabs .rd_tab:checked~label {
+    background-color: #e54e43;
+    color: #fff;
 }
 
-.rd_tab:checked ~ .tab-content{
-display: block;
+.tab-content {
+    border-top: solid 5px #e54e43;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    height: 320px;
+    width: 600px;
+    left: 0;
 }
-.tab-content h2{
-padding: 10px;
-color: #87d3b7;
+
+.rd_tab:checked~.tab-content {
+    display: block;
 }
-.tab-content article{
-padding: 10px;
-color: #555;
+
+.tab-content h2 {
+    padding: 10px;
+    color: #87d3b7;
+}
+
+.tab-content article {
+    padding: 10px;
+    color: #555;
 }
 
 
-.title-project{
-    margin-top: 250px;
+.title-project {
+    margin-top: 240px;
 }
