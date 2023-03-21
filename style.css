@@ -134,6 +134,7 @@ a {
     margin: 30px auto;
     background-color: #fff;
     position: relative;
+    
 }
 
 .nav_tabs ul {
@@ -153,6 +154,7 @@ a {
     color: #fff;
     cursor: pointer;
     text-align: center;
+    
 }
 
 
@@ -213,7 +215,9 @@ h6 {
     align-items: center;
 }
 
-
+.maisprojetos{
+    margin-left: 170px;
+}
 
 .title2 {
     display: flex;
