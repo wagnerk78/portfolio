@@ -61,7 +61,8 @@ p {
 }
 
 h2 {
-    margin-left: 150px;
+    margin-left: 170px;
+    margin-bottom: 15px;
     font-size: 40px;
 }
 
@@ -121,12 +122,6 @@ a {
     padding: 10px;
 }
 
-h6 {
-    font-size: 14px;
-    margin: 20px 0px 10px 60px;
-    width: 450px;
-}
-
 .linkgit {
     margin-left: 180px;
     font-size: 20px;
@@ -136,7 +131,7 @@ h6 {
 .nav_tabs {
     width: 1200px;
     height: 600px;
-    margin: 50px auto;
+    margin: 30px auto;
     background-color: #fff;
     position: relative;
 }
@@ -167,17 +162,17 @@ h6 {
 }
 
 .nav_tabs .rd_tab:checked~label {
-    background-color: #e54e43;
+    background-color:#3f0be8;
     color: #fff;
 }
 
 .tab-content {
-    border-top: solid 5px #e54e43;
+    border-top: solid 5px #3f0be8;
     background-color: #fff;
     display: none;
     position: absolute;
     height: 320px;
-    width: 600px;
+    width: 1200px;
     left: 0;
 }
 
@@ -198,4 +193,28 @@ h6 {
 
 .title-project {
     margin-top: 243px;
+}
+
+.img-project {
+    width: 800px;
+    height: 450px;
+    border-radius: 15px;
+}
+
+h6 {
+    font-size: 18px;
+     margin: 10px 0px;
+   
+}
+
+.box-content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.title2 {
+    display: flex;
 }
