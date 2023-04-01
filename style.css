@@ -18,22 +18,16 @@ section {
 
 h3 {
     margin-left: 150px;
-    color: darkblue;
+    color: #bde9f4;
+    font-style:italic;
 }
 
 h1 {
     margin-top: 50px;
     margin-left: 125px;
-    color: black;
+    color: #bde9f4;
     font-size: 40px;
-
-}
-
-.img-me {
-    margin-top: 75px;
-    width: 350px;
-    margin-left: 200px;
-    border-radius: 10px;
+    font-style: oblique;
 }
 
 p {
@@ -221,4 +215,20 @@ h6 {
 
 .title2 {
     display: flex;
+}
+
+.photo {
+    background-color: #3f0be8;
+    margin-left: 200px;
+    height: 280px;
+    width: 300px;
+    margin-top: 75px;
+    border-radius: 10px;
+}
+
+.img-me {
+    margin-top: 20px;
+    width: 200px;
+    margin-left: 55px;
+    border-radius:10px;
 }
