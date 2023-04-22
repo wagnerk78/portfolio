@@ -8,168 +8,251 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <title>Wagner Kroiss</title>
 </head>
 
 <body>
     <header>
-        <div>
-            <h1>Wagner Kroiss</h1>
-            <h3>Desenvolvedor FullStack </h3>
-        </div>
-        <nav class="menu">
-            <ul>
-                <li class="links">
-                    <div> <a id="grito" href="#projetos"> Projetos</a></div>
-                </li>
-                <li class="links">
-                    <div class="linkstyle">Eu sei... </div>
-                    <ul>
-                        <li> <img class="image-list" src="./images/icons8-html5.png">HTML5</li>
-                        <li> <img class="image-list" src="./images/icons8-css3.png">CSS</li>
-                        <li> <img class="image-list" src="./images/icons8-javascript.png">JavaScript</li>
-                        <li> <img class="image-list" src="./images/icons8-bootstrap.png">BootStrap</li>
-                        <li> <img class="image-list" src="./images/icons8-php.png">PHP</li>
-                        <li> <img class="image-list" src="./images/icons8-react.png">React</li>
-                        <li> <img class="image-list" src="./images/icons8-github.png">GitHub</li>
-                        <li> <img class="image-list" src="./images/icons8-node.png">Nodejs</li>
-                        <li> <img class="image-list" src="./images/icons8-mysql.png">MySQL</li>
-                        <li> <img class="image-list" src="./images/java.png">Java</li>
+        <nav class="navbar navbar-expand-xxl" style="background-color: #048ef0;">
+            <div class="container-fluid">
+                <div class="title">
+                    <div>
+                        <h1>Wagner Kroiss</h1>
+                    </div>
+                    <div class="subtitle">
+                        <h4>Desenvolvedor FullStack</h4>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="teste" class="nav-link active" aria-current="page" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="teste" class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Tecnologias
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li> <a class="dropdown-item" href="#">HTML5</a></li>
+                                <li> <a class="dropdown-item" href="#">CSS</a></li>
+                                <li> <a class="dropdown-item" href="#">JavaScript</a></li>
+                                <li> <a class="dropdown-item" href="#">BootStrap</a></li>
+                                <li> <a class="dropdown-item" href="#">PHP</a></li>
+                                <li> <a class="dropdown-item" href="#">React</a></li>
+                                <li> <a class="dropdown-item" href="#">GitHub</a></li>
+                                <li> <a class="dropdown-item" href="#">Node</a></li>
+                                <li> <a class="dropdown-item" href="#">MySql</a></li>
+                                <li> <a class="dropdown-item" href="#">Java</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="teste" class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Contato
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li> <a class="dropdown-item" href="https://www.linkedin.com/in/wagner-kroiss"
+                                        target="_blank">LinkedIn</a></li>
+                                <li> <a class="dropdown-item" href="https://github.com/wagnerk78"
+                                        target="_blank">GitHub</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-                <li class="links">
-                    <div class="linkstyle">Contato</div>
-                    <ul>
-                        <li> <img class="image-list" src="./images/icons8-mail.png"><a
-                                href="mailto:wagnerkroiss@gmail.com" target="_blank">E-mail</a></li>
-                        <li> <img class="image-list" src="./images/icons8-linkedin.png"><a
-                                href="https://www.linkedin.com/in/wagner-kroiss" target="_blank">Linkedin</a></li>
-                    </ul>
-                </li>
-            </ul>
+
+                </div>
+            </div>
         </nav>
-
-
     </header>
     <br>
-    <hr>
-    <section>
-        <div>
-            <p>Sou um profissional em transição de carreira. Desde janeiro de 2022 estou realizando vários cursos,
-                resolvendo problemas e desafios na área de programação.
-                Comprometido com os objetivos da empresa, procurando me aperfeiçoar e aprender cada vez mais!
-                Evoluir sempre! Desistir, jamais!
-            </p>
-        </div>
-        <div class="photo">
-            <img class="img-me" src="./images/foto_Wagner (2).jpeg" alt="man at computer">
+    <section style="margin-left: 50px;">
+        <div class="card border-dark mb-4" style="max-width: 1400px;">
+            <div class="row g-1">
+                <div class="col-md-3">
+                    <img src="./images/foto_Wagner (2).jpeg" class="img-fluid rounded-start" alt="my picture">
+                </div>
+                <div class="col-md-8" style="text-align: justify;padding-left: 0px 120px; line-height: 45px;">
+                    <div class="card-body">
+                        <br>
+                        <br>
+                        <p class="fs-3" class="card-text">Sou um profissional em transição de carreira. Desde janeiro de
+                            2022 estou
+                            realizando cursos,
+                            desenvolvendo desafios na área de programação tanto em Front end como em Back end.
+                            Comprometido com os objetivos da empresa, procurando me aperfeiçoar e aprender cada vez
+                            mais!
+                            Evoluir sempre! Desistir? Jamais!</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <div class="title-project">
         <div><br></div>
-        <a name="projetos"></a>
-
-        <h2> PROJETOS</h2>
-        <a class="maisprojetos" href="https://github.com/wagnerk78" target="_blank"> Mais projetos acesse meu GitHub</a>
-    </div>
-    <nav class="nav_tabs">
-        <ul>
-            <li>
-                <input type="radio" id="tab1" class="rd_tab" name="tabs" checked>
-                <label for="tab1" class="tab_label">Projeto 1</label>
-                <div class="tab-content">
-                    <article>
-                        <div class="box-content">
-                            <div>
-                                <h6>Site realizado com HTML, CSS e BOOTSTRAP.</h6>
-                            </div>
-                            <div>
-                                <img class="img-project" src="./images/bootstrap.jpg" alt="site feito com BootStrap">
-                            </div>
-                        </div>
-                    </article>
+        <div class="fs-1" style="width:100vw;">
+            <marquee> PROJETOS
+                <img src="./images/icons8-bootstrap.png">
+                <img src="./images/icons8-css3.png">
+                <img src="./images/icons8-github.png">
+                <img src="./images/icons8-html5.png">
+                <img src="./images/icons8-javascript.png">
+                <img src="./images/icons8-mysql.png">
+                <img src="./images/icons8-node.png">
+                <img src="./images/icons8-php.png">
+                <img src="./images/icons8-react.png">
+                <img src="./images/java.svg">
+            </marquee>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 10px;">
+            <div class="col">
+                <div class="card">
+                    <img src="./images/bootstrap.jpg" class="card-img-top" alt="site bootstrap">
+                    <div class="card-body">
+                        <h5 class="card-title">Site feito com BootStrap</h5>
+                        <a href="https://github.com/wagnerk78/TesteFlix" target="_blank">GitHub do projeto</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-bootstrap" viewBox="0 0 16 16">
+                            <path
+                                d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377H6.375z" />
+                            <path
+                                d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H4z" />
+                        </svg>
+                    </div>
                 </div>
-            </li>
-            <li>
-                <input type="radio" name="tabs" class="rd_tab" id="tab2">
-                <label for="tab2" class="tab_label">Projeto 2</label>
-                <div class="tab-content">
-                    <article>
-                        <div class="box-content">
-                            <div>
-                                <h6>Site realizado com HTML, CSS e JavaScript.</h6>
-                            </div>
-                            <div>
-                                <img class="img-project" src="./images/conversion.jpg" alt="site conversão">
-                            </div>
-                        </div>
-                    </article>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./images/conversion.jpg" class="card-img-top" alt="site feito com html">
+                    <div class="card-body">
+                        <h5 class="card-title">Site feito com HTML, CSS e JavaScript</h5>
+                        <a href="https://github.com/wagnerk78/convertionValues" target="_blank">GitHub do projeto</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-filetype-html" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5Zm-9.736 7.35v3.999h-.791v-1.714H1.79v1.714H1V11.85h.791v1.626h1.682V11.85h.79Zm2.251.662v3.337h-.794v-3.337H4.588v-.662h3.064v.662H6.515Zm2.176 3.337v-2.66h.038l.952 2.159h.516l.946-2.16h.038v2.661h.715V11.85h-.8l-1.14 2.596H9.93L8.79 11.85h-.805v3.999h.706Zm4.71-.674h1.696v.674H12.61V11.85h.79v3.325Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-filetype-css" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM3.397 14.841a1.13 1.13 0 0 0 .401.823c.13.108.289.192.478.252.19.061.411.091.665.091.338 0 .624-.053.859-.158.236-.105.416-.252.539-.44.125-.189.187-.408.187-.656 0-.224-.045-.41-.134-.56a1.001 1.001 0 0 0-.375-.357 2.027 2.027 0 0 0-.566-.21l-.621-.144a.97.97 0 0 1-.404-.176.37.37 0 0 1-.144-.299c0-.156.062-.284.185-.384.125-.101.296-.152.512-.152.143 0 .266.023.37.068a.624.624 0 0 1 .246.181.56.56 0 0 1 .12.258h.75a1.092 1.092 0 0 0-.2-.566 1.21 1.21 0 0 0-.5-.41 1.813 1.813 0 0 0-.78-.152c-.293 0-.551.05-.776.15-.225.099-.4.24-.527.421-.127.182-.19.395-.19.639 0 .201.04.376.122.524.082.149.2.27.352.367.152.095.332.167.539.213l.618.144c.207.049.361.113.463.193a.387.387 0 0 1 .152.326.505.505 0 0 1-.085.29.559.559 0 0 1-.255.193c-.111.047-.249.07-.413.07-.117 0-.223-.013-.32-.04a.838.838 0 0 1-.248-.115.578.578 0 0 1-.255-.384h-.765ZM.806 13.693c0-.248.034-.46.102-.633a.868.868 0 0 1 .302-.399.814.814 0 0 1 .475-.137c.15 0 .283.032.398.097a.7.7 0 0 1 .272.26.85.85 0 0 1 .12.381h.765v-.072a1.33 1.33 0 0 0-.466-.964 1.441 1.441 0 0 0-.489-.272 1.838 1.838 0 0 0-.606-.097c-.356 0-.66.074-.911.223-.25.148-.44.359-.572.632-.13.274-.196.6-.196.979v.498c0 .379.064.704.193.976.131.271.322.48.572.626.25.145.554.217.914.217.293 0 .554-.055.785-.164.23-.11.414-.26.55-.454a1.27 1.27 0 0 0 .226-.674v-.076h-.764a.799.799 0 0 1-.118.363.7.7 0 0 1-.272.25.874.874 0 0 1-.401.087.845.845 0 0 1-.478-.132.833.833 0 0 1-.299-.392 1.699 1.699 0 0 1-.102-.627v-.495ZM6.78 15.29a1.176 1.176 0 0 1-.111-.449h.764a.578.578 0 0 0 .255.384c.07.049.154.087.25.114.095.028.201.041.319.041.164 0 .301-.023.413-.07a.559.559 0 0 0 .255-.193.507.507 0 0 0 .085-.29.387.387 0 0 0-.153-.326c-.101-.08-.256-.144-.463-.193l-.618-.143a1.72 1.72 0 0 1-.539-.214 1 1 0 0 1-.351-.367 1.068 1.068 0 0 1-.123-.524c0-.244.063-.457.19-.639.127-.181.303-.322.527-.422.225-.1.484-.149.777-.149.304 0 .564.05.779.152.217.102.384.239.5.41.12.17.187.359.2.566h-.75a.56.56 0 0 0-.12-.258.624.624 0 0 0-.246-.181.923.923 0 0 0-.37-.068c-.216 0-.387.05-.512.152a.472.472 0 0 0-.184.384c0 .121.047.22.143.3a.97.97 0 0 0 .404.175l.621.143c.217.05.406.12.566.211.16.09.285.21.375.358.09.148.135.335.135.56 0 .247-.063.466-.188.656a1.216 1.216 0 0 1-.539.439c-.234.105-.52.158-.858.158-.254 0-.476-.03-.665-.09a1.404 1.404 0 0 1-.478-.252 1.13 1.13 0 0 1-.29-.375Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-filetype-js" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14 4.5V14a2 2 0 0 1-2 2H8v-1h4a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM3.186 15.29a1.176 1.176 0 0 1-.111-.449h.765a.578.578 0 0 0 .255.384c.07.049.153.087.249.114.095.028.202.041.319.041.164 0 .302-.023.413-.07a.559.559 0 0 0 .255-.193.507.507 0 0 0 .085-.29.387.387 0 0 0-.153-.326c-.101-.08-.255-.144-.462-.193l-.619-.143a1.72 1.72 0 0 1-.539-.214 1.001 1.001 0 0 1-.351-.367 1.068 1.068 0 0 1-.123-.524c0-.244.063-.457.19-.639.127-.181.303-.322.528-.422.224-.1.483-.149.776-.149.305 0 .564.05.78.152.216.102.383.239.5.41.12.17.186.359.2.566h-.75a.56.56 0 0 0-.12-.258.624.624 0 0 0-.247-.181.923.923 0 0 0-.369-.068c-.217 0-.388.05-.513.152a.472.472 0 0 0-.184.384c0 .121.048.22.143.3a.97.97 0 0 0 .405.175l.62.143c.218.05.406.12.566.211.16.09.285.21.375.358.09.148.135.335.135.56 0 .247-.063.466-.188.656a1.216 1.216 0 0 1-.539.439c-.234.105-.52.158-.858.158-.254 0-.476-.03-.665-.09a1.404 1.404 0 0 1-.478-.252 1.13 1.13 0 0 1-.29-.375Zm-3.104-.033A1.32 1.32 0 0 1 0 14.791h.765a.576.576 0 0 0 .073.27.499.499 0 0 0 .454.246c.19 0 .33-.055.422-.164.092-.11.138-.265.138-.466v-2.745h.79v2.725c0 .44-.119.774-.357 1.005-.236.23-.564.345-.984.345a1.59 1.59 0 0 1-.569-.094 1.145 1.145 0 0 1-.407-.266 1.14 1.14 0 0 1-.243-.39Z" />
+                        </svg>
+                    </div>
                 </div>
-            </li>
-            <li>
-                <input type="radio" name="tabs" class="rd_tab" id="tab3">
-                <label for="tab3" class="tab_label">Projeto 3</label>
-                <div class="tab-content">
-                    <article>
-                        <div class="box-content">
-                            <div>
-                                <h6>Site realizado com HTML e CSS.</h6>
-                            </div>
-                            <div>
-                                <img class="img-project" src="./images/LogIn.jpg" alt="site feito com HTML/CSS">
-                            </div>
-                        </div>
-                    </article>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./images/TipCAlculator.jpg" class="card-img-top" alt="site feito em react">
+                    <div class="card-body">
+                        <h5 class="card-title">Site feito em React</h5>
+                        <a href="https://github.com/wagnerk78/Bill" target="_blank">GitHub do projeto</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-filetype-jsx" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM3.075 14.841a1.13 1.13 0 0 0 .401.823c.13.108.288.192.478.252.19.061.411.091.665.091.338 0 .624-.053.858-.158.237-.105.416-.252.54-.44a1.17 1.17 0 0 0 .187-.656c0-.224-.045-.41-.135-.56a1.001 1.001 0 0 0-.375-.357 2.027 2.027 0 0 0-.565-.21l-.621-.144a.97.97 0 0 1-.405-.176.37.37 0 0 1-.143-.299c0-.156.061-.284.184-.384.125-.101.296-.152.513-.152.143 0 .266.023.37.068a.624.624 0 0 1 .245.181.56.56 0 0 1 .12.258h.75a1.092 1.092 0 0 0-.199-.566 1.21 1.21 0 0 0-.5-.41 1.813 1.813 0 0 0-.78-.152c-.293 0-.552.05-.776.15-.225.099-.4.24-.528.421-.127.182-.19.395-.19.639 0 .201.04.376.123.524.082.149.199.27.351.367.153.095.332.167.54.213l.618.144c.207.049.36.113.462.193a.387.387 0 0 1 .153.326.512.512 0 0 1-.085.29.559.559 0 0 1-.255.193c-.111.047-.249.07-.413.07-.117 0-.224-.013-.32-.04a.837.837 0 0 1-.248-.115.578.578 0 0 1-.255-.384h-.765ZM0 14.791c0 .165.027.32.082.466.055.147.136.277.243.39.11.113.245.202.407.267.164.062.354.093.569.093.42 0 .748-.115.984-.346.238-.23.358-.565.358-1.004v-2.725h-.791v2.745c0 .201-.046.357-.138.466-.092.11-.233.164-.422.164a.499.499 0 0 1-.454-.246.576.576 0 0 1-.073-.27H0Zm8.907-2.859H9.8l-1.274 2.007L9.78 15.93h-.908l-.85-1.415h-.035l-.853 1.415h-.861l1.24-2.016-1.228-1.983h.931l.832 1.438h.036l.823-1.438Z" />
+                        </svg>
+                    </div>
                 </div>
-            </li>
-            <li>
-                <input type="radio" name="tabs" class="rd_tab" id="tab4">
-                <label for="tab4" class="tab_label">Projeto 4</label>
-                <div class="tab-content">
-                    <article>
-                        <div class="box-content">
-                            <div>
-                                <h6>Site realizado em React.</h6>
-                            </div>
-                            <div>
-                                <img class="img-project" src="./images/TipCAlculator.jpg" alt="site Calculadora">
-                            </div>
-                    </article>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./images/todolist.jpg" class="card-img-top" alt="Site feito com react">
+                    <div class="card-body">
+                        <h5 class="card-title">Site feito com React</h5>
+                        <a href="https://github.com/wagnerk78/first-project-react" target="_blank">GitHub do projeto</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-filetype-jsx" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM3.075 14.841a1.13 1.13 0 0 0 .401.823c.13.108.288.192.478.252.19.061.411.091.665.091.338 0 .624-.053.858-.158.237-.105.416-.252.54-.44a1.17 1.17 0 0 0 .187-.656c0-.224-.045-.41-.135-.56a1.001 1.001 0 0 0-.375-.357 2.027 2.027 0 0 0-.565-.21l-.621-.144a.97.97 0 0 1-.405-.176.37.37 0 0 1-.143-.299c0-.156.061-.284.184-.384.125-.101.296-.152.513-.152.143 0 .266.023.37.068a.624.624 0 0 1 .245.181.56.56 0 0 1 .12.258h.75a1.092 1.092 0 0 0-.199-.566 1.21 1.21 0 0 0-.5-.41 1.813 1.813 0 0 0-.78-.152c-.293 0-.552.05-.776.15-.225.099-.4.24-.528.421-.127.182-.19.395-.19.639 0 .201.04.376.123.524.082.149.199.27.351.367.153.095.332.167.54.213l.618.144c.207.049.36.113.462.193a.387.387 0 0 1 .153.326.512.512 0 0 1-.085.29.559.559 0 0 1-.255.193c-.111.047-.249.07-.413.07-.117 0-.224-.013-.32-.04a.837.837 0 0 1-.248-.115.578.578 0 0 1-.255-.384h-.765ZM0 14.791c0 .165.027.32.082.466.055.147.136.277.243.39.11.113.245.202.407.267.164.062.354.093.569.093.42 0 .748-.115.984-.346.238-.23.358-.565.358-1.004v-2.725h-.791v2.745c0 .201-.046.357-.138.466-.092.11-.233.164-.422.164a.499.499 0 0 1-.454-.246.576.576 0 0 1-.073-.27H0Zm8.907-2.859H9.8l-1.274 2.007L9.78 15.93h-.908l-.85-1.415h-.035l-.853 1.415h-.861l1.24-2.016-1.228-1.983h.931l.832 1.438h.036l.823-1.438Z" />
+                        </svg>
+                    </div>
                 </div>
-            </li>
-            <li>
-                <input type="radio" name="tabs" class="rd_tab" id="tab5">
-                <label for="tab5" class="tab_label">Projeto 5</label>
-                <div class="tab-content">
-                    <article>
-                        <div class="box-content">
-                            <div>
-                                <h6>Site realizado em React.</h6>
-                            </div>
-                            <div>
-                                <img class="img-project" src="./images/todolist.jpg" alt="site Tasks">
-                            </div>
-                    </article>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./images/validation.jpg" class="card-img-top" alt="Site feito com HTML">
+                    <div class="card-body">
+                        <h5 class="card-title">Site feito com HTML e CSS</h5>
+                        <a href="https://github.com/wagnerk78/Interactive-rating-component" target="_blank">GitHub do
+                            projeto</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-filetype-html" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5Zm-9.736 7.35v3.999h-.791v-1.714H1.79v1.714H1V11.85h.791v1.626h1.682V11.85h.79Zm2.251.662v3.337h-.794v-3.337H4.588v-.662h3.064v.662H6.515Zm2.176 3.337v-2.66h.038l.952 2.159h.516l.946-2.16h.038v2.661h.715V11.85h-.8l-1.14 2.596H9.93L8.79 11.85h-.805v3.999h.706Zm4.71-.674h1.696v.674H12.61V11.85h.79v3.325Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-filetype-css" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM3.397 14.841a1.13 1.13 0 0 0 .401.823c.13.108.289.192.478.252.19.061.411.091.665.091.338 0 .624-.053.859-.158.236-.105.416-.252.539-.44.125-.189.187-.408.187-.656 0-.224-.045-.41-.134-.56a1.001 1.001 0 0 0-.375-.357 2.027 2.027 0 0 0-.566-.21l-.621-.144a.97.97 0 0 1-.404-.176.37.37 0 0 1-.144-.299c0-.156.062-.284.185-.384.125-.101.296-.152.512-.152.143 0 .266.023.37.068a.624.624 0 0 1 .246.181.56.56 0 0 1 .12.258h.75a1.092 1.092 0 0 0-.2-.566 1.21 1.21 0 0 0-.5-.41 1.813 1.813 0 0 0-.78-.152c-.293 0-.551.05-.776.15-.225.099-.4.24-.527.421-.127.182-.19.395-.19.639 0 .201.04.376.122.524.082.149.2.27.352.367.152.095.332.167.539.213l.618.144c.207.049.361.113.463.193a.387.387 0 0 1 .152.326.505.505 0 0 1-.085.29.559.559 0 0 1-.255.193c-.111.047-.249.07-.413.07-.117 0-.223-.013-.32-.04a.838.838 0 0 1-.248-.115.578.578 0 0 1-.255-.384h-.765ZM.806 13.693c0-.248.034-.46.102-.633a.868.868 0 0 1 .302-.399.814.814 0 0 1 .475-.137c.15 0 .283.032.398.097a.7.7 0 0 1 .272.26.85.85 0 0 1 .12.381h.765v-.072a1.33 1.33 0 0 0-.466-.964 1.441 1.441 0 0 0-.489-.272 1.838 1.838 0 0 0-.606-.097c-.356 0-.66.074-.911.223-.25.148-.44.359-.572.632-.13.274-.196.6-.196.979v.498c0 .379.064.704.193.976.131.271.322.48.572.626.25.145.554.217.914.217.293 0 .554-.055.785-.164.23-.11.414-.26.55-.454a1.27 1.27 0 0 0 .226-.674v-.076h-.764a.799.799 0 0 1-.118.363.7.7 0 0 1-.272.25.874.874 0 0 1-.401.087.845.845 0 0 1-.478-.132.833.833 0 0 1-.299-.392 1.699 1.699 0 0 1-.102-.627v-.495ZM6.78 15.29a1.176 1.176 0 0 1-.111-.449h.764a.578.578 0 0 0 .255.384c.07.049.154.087.25.114.095.028.201.041.319.041.164 0 .301-.023.413-.07a.559.559 0 0 0 .255-.193.507.507 0 0 0 .085-.29.387.387 0 0 0-.153-.326c-.101-.08-.256-.144-.463-.193l-.618-.143a1.72 1.72 0 0 1-.539-.214 1 1 0 0 1-.351-.367 1.068 1.068 0 0 1-.123-.524c0-.244.063-.457.19-.639.127-.181.303-.322.527-.422.225-.1.484-.149.777-.149.304 0 .564.05.779.152.217.102.384.239.5.41.12.17.187.359.2.566h-.75a.56.56 0 0 0-.12-.258.624.624 0 0 0-.246-.181.923.923 0 0 0-.37-.068c-.216 0-.387.05-.512.152a.472.472 0 0 0-.184.384c0 .121.047.22.143.3a.97.97 0 0 0 .404.175l.621.143c.217.05.406.12.566.211.16.09.285.21.375.358.09.148.135.335.135.56 0 .247-.063.466-.188.656a1.216 1.216 0 0 1-.539.439c-.234.105-.52.158-.858.158-.254 0-.476-.03-.665-.09a1.404 1.404 0 0 1-.478-.252 1.13 1.13 0 0 1-.29-.375Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-filetype-js" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14 4.5V14a2 2 0 0 1-2 2H8v-1h4a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM3.186 15.29a1.176 1.176 0 0 1-.111-.449h.765a.578.578 0 0 0 .255.384c.07.049.153.087.249.114.095.028.202.041.319.041.164 0 .302-.023.413-.07a.559.559 0 0 0 .255-.193.507.507 0 0 0 .085-.29.387.387 0 0 0-.153-.326c-.101-.08-.255-.144-.462-.193l-.619-.143a1.72 1.72 0 0 1-.539-.214 1.001 1.001 0 0 1-.351-.367 1.068 1.068 0 0 1-.123-.524c0-.244.063-.457.19-.639.127-.181.303-.322.528-.422.224-.1.483-.149.776-.149.305 0 .564.05.78.152.216.102.383.239.5.41.12.17.186.359.2.566h-.75a.56.56 0 0 0-.12-.258.624.624 0 0 0-.247-.181.923.923 0 0 0-.369-.068c-.217 0-.388.05-.513.152a.472.472 0 0 0-.184.384c0 .121.048.22.143.3a.97.97 0 0 0 .405.175l.62.143c.218.05.406.12.566.211.16.09.285.21.375.358.09.148.135.335.135.56 0 .247-.063.466-.188.656a1.216 1.216 0 0 1-.539.439c-.234.105-.52.158-.858.158-.254 0-.476-.03-.665-.09a1.404 1.404 0 0 1-.478-.252 1.13 1.13 0 0 1-.29-.375Zm-3.104-.033A1.32 1.32 0 0 1 0 14.791h.765a.576.576 0 0 0 .073.27.499.499 0 0 0 .454.246c.19 0 .33-.055.422-.164.092-.11.138-.265.138-.466v-2.745h.79v2.725c0 .44-.119.774-.357 1.005-.236.23-.564.345-.984.345a1.59 1.59 0 0 1-.569-.094 1.145 1.145 0 0 1-.407-.266 1.14 1.14 0 0 1-.243-.39Z" />
+                        </svg>
+                    </div>
                 </div>
-            </li>
-            <li>
-                <input type="radio" name="tabs" class="rd_tab" id="tab6">
-                <label for="tab6" class="tab_label">Projeto 6</label>
-                <div class="tab-content">
-                    <article>
-                        <div class="box-content">
-                            <div>
-                                <h6>Site realizado com HTML, CSS e JavaScript.</h6>
-                            </div>
-                            <div>
-                                <img class="img-project" src="./images/validation.jpg" alt="site validation">
-                            </div>
-                    </article>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./images/LogIn.jpg" class="card-img-top" alt="Site feito com HTML, CSS e JavaScript">
+                    <div class="card-body">
+                        <h5 class="card-title">Site feito com HTML, CSS e JavaScript</h5>
+                        <a href="https://github.com/wagnerk78/LogIn" target="_blank">GitHub do projeto</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-filetype-html" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5Zm-9.736 7.35v3.999h-.791v-1.714H1.79v1.714H1V11.85h.791v1.626h1.682V11.85h.79Zm2.251.662v3.337h-.794v-3.337H4.588v-.662h3.064v.662H6.515Zm2.176 3.337v-2.66h.038l.952 2.159h.516l.946-2.16h.038v2.661h.715V11.85h-.8l-1.14 2.596H9.93L8.79 11.85h-.805v3.999h.706Zm4.71-.674h1.696v.674H12.61V11.85h.79v3.325Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-filetype-css" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM3.397 14.841a1.13 1.13 0 0 0 .401.823c.13.108.289.192.478.252.19.061.411.091.665.091.338 0 .624-.053.859-.158.236-.105.416-.252.539-.44.125-.189.187-.408.187-.656 0-.224-.045-.41-.134-.56a1.001 1.001 0 0 0-.375-.357 2.027 2.027 0 0 0-.566-.21l-.621-.144a.97.97 0 0 1-.404-.176.37.37 0 0 1-.144-.299c0-.156.062-.284.185-.384.125-.101.296-.152.512-.152.143 0 .266.023.37.068a.624.624 0 0 1 .246.181.56.56 0 0 1 .12.258h.75a1.092 1.092 0 0 0-.2-.566 1.21 1.21 0 0 0-.5-.41 1.813 1.813 0 0 0-.78-.152c-.293 0-.551.05-.776.15-.225.099-.4.24-.527.421-.127.182-.19.395-.19.639 0 .201.04.376.122.524.082.149.2.27.352.367.152.095.332.167.539.213l.618.144c.207.049.361.113.463.193a.387.387 0 0 1 .152.326.505.505 0 0 1-.085.29.559.559 0 0 1-.255.193c-.111.047-.249.07-.413.07-.117 0-.223-.013-.32-.04a.838.838 0 0 1-.248-.115.578.578 0 0 1-.255-.384h-.765ZM.806 13.693c0-.248.034-.46.102-.633a.868.868 0 0 1 .302-.399.814.814 0 0 1 .475-.137c.15 0 .283.032.398.097a.7.7 0 0 1 .272.26.85.85 0 0 1 .12.381h.765v-.072a1.33 1.33 0 0 0-.466-.964 1.441 1.441 0 0 0-.489-.272 1.838 1.838 0 0 0-.606-.097c-.356 0-.66.074-.911.223-.25.148-.44.359-.572.632-.13.274-.196.6-.196.979v.498c0 .379.064.704.193.976.131.271.322.48.572.626.25.145.554.217.914.217.293 0 .554-.055.785-.164.23-.11.414-.26.55-.454a1.27 1.27 0 0 0 .226-.674v-.076h-.764a.799.799 0 0 1-.118.363.7.7 0 0 1-.272.25.874.874 0 0 1-.401.087.845.845 0 0 1-.478-.132.833.833 0 0 1-.299-.392 1.699 1.699 0 0 1-.102-.627v-.495ZM6.78 15.29a1.176 1.176 0 0 1-.111-.449h.764a.578.578 0 0 0 .255.384c.07.049.154.087.25.114.095.028.201.041.319.041.164 0 .301-.023.413-.07a.559.559 0 0 0 .255-.193.507.507 0 0 0 .085-.29.387.387 0 0 0-.153-.326c-.101-.08-.256-.144-.463-.193l-.618-.143a1.72 1.72 0 0 1-.539-.214 1 1 0 0 1-.351-.367 1.068 1.068 0 0 1-.123-.524c0-.244.063-.457.19-.639.127-.181.303-.322.527-.422.225-.1.484-.149.777-.149.304 0 .564.05.779.152.217.102.384.239.5.41.12.17.187.359.2.566h-.75a.56.56 0 0 0-.12-.258.624.624 0 0 0-.246-.181.923.923 0 0 0-.37-.068c-.216 0-.387.05-.512.152a.472.472 0 0 0-.184.384c0 .121.047.22.143.3a.97.97 0 0 0 .404.175l.621.143c.217.05.406.12.566.211.16.09.285.21.375.358.09.148.135.335.135.56 0 .247-.063.466-.188.656a1.216 1.216 0 0 1-.539.439c-.234.105-.52.158-.858.158-.254 0-.476-.03-.665-.09a1.404 1.404 0 0 1-.478-.252 1.13 1.13 0 0 1-.29-.375Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-filetype-js" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14 4.5V14a2 2 0 0 1-2 2H8v-1h4a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM3.186 15.29a1.176 1.176 0 0 1-.111-.449h.765a.578.578 0 0 0 .255.384c.07.049.153.087.249.114.095.028.202.041.319.041.164 0 .302-.023.413-.07a.559.559 0 0 0 .255-.193.507.507 0 0 0 .085-.29.387.387 0 0 0-.153-.326c-.101-.08-.255-.144-.462-.193l-.619-.143a1.72 1.72 0 0 1-.539-.214 1.001 1.001 0 0 1-.351-.367 1.068 1.068 0 0 1-.123-.524c0-.244.063-.457.19-.639.127-.181.303-.322.528-.422.224-.1.483-.149.776-.149.305 0 .564.05.78.152.216.102.383.239.5.41.12.17.186.359.2.566h-.75a.56.56 0 0 0-.12-.258.624.624 0 0 0-.247-.181.923.923 0 0 0-.369-.068c-.217 0-.388.05-.513.152a.472.472 0 0 0-.184.384c0 .121.048.22.143.3a.97.97 0 0 0 .405.175l.62.143c.218.05.406.12.566.211.16.09.285.21.375.358.09.148.135.335.135.56 0 .247-.063.466-.188.656a1.216 1.216 0 0 1-.539.439c-.234.105-.52.158-.858.158-.254 0-.476-.03-.665-.09a1.404 1.404 0 0 1-.478-.252 1.13 1.13 0 0 1-.29-.375Zm-3.104-.033A1.32 1.32 0 0 1 0 14.791h.765a.576.576 0 0 0 .073.27.499.499 0 0 0 .454.246c.19 0 .33-.055.422-.164.092-.11.138-.265.138-.466v-2.745h.79v2.725c0 .44-.119.774-.357 1.005-.236.23-.564.345-.984.345a1.59 1.59 0 0 1-.569-.094 1.145 1.145 0 0 1-.407-.266 1.14 1.14 0 0 1-.243-.39Z" />
+                        </svg>
+                    </div>
                 </div>
-            </li>
-        </ul>
-    </nav>
+            </div>
+        </div>
+        <footer style="background-color:#fff; height:100px;">
+            <div class="container text-center">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <p class="name">Autor: Wagner Kroiss</p>
+                  </div>
+                  <div class="col">
+                    <a href="https://www.linkedin.com/in/wagner-kroiss"><img src="./images/icons8-linkedin.png"></a>
+                  
+                  </div>
+                  <div class="col">
+                    <a href="mailto:wagnerkroiss@gmail.com"><img src="./images/icons8-mail.png"></a>
+                  </div>
+                  <div class="col"></div>
+                  <div class="col"></div>
+                  <div class="col"></div>
+                </div>
+              </div>
+        </footer>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
 
 </html>
