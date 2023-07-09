@@ -35,3 +35,12 @@ body {
     font-size: 20px;
     margin-top: 20px;
 }
+
+.card-body {
+    margin-top: -50px;
+    margin-left: 40px;
+}
+
+#text-project {
+    color: #3f0be8;
+}
